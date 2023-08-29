@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="/favicon.png">
+
+    <title>Converter</title>
+</head>
+<body>
+    <div class="main_container">
+
+        <div class="presentation_container">
+            <i class="fa-solid fa-temperature-empty temperature_icon"></i>
+            <i class="fa-solid fa-temperature-quarter temperature_icon"></i>
+            <i class="fa-solid fa-temperature-half temperature_icon"></i>
+            <i class="fa-solid fa-temperature-three-quarters temperature_icon"></i>
+            <i class="fa-solid fa-temperature-full temperature_icon"></i>
+            <p class="presentation_title">Conversor de<br>Temperatura</p>
+        </div>
+
+        <div class="converter_container">
+
+            <div class="converter_calc_container">
+
+                <p class="converter_title">Conversor de Temperatura</p>
+
+                <div class="first_select_container select_container">
+                    <select class="select_main" name="" id="">
+                        <option class="options_main" value="1">Grado Celsius</option>
+                        <option class="options_main" value="2">Grado Fahrenheit</option>
+                        <option class="options_main" value="3">Kelvin</option>
+                    </select>
+                    <input type="text" class="input_result">
+                </div>
+
+                <div class="equal_sign">=</div>
+
+                <div class="second_select_container select_container">
+                    <input class="result" type="text" readonly>
+                    <select class="select_result" name="" id="">
+                        <option class="options_result" value="2">Grado Fahrenheit</option>
+                        <option class="options_result" value="1">Grado Celsius</option>
+                        <option class="options_result" value="3">Kelvin</option>
+                    </select>
+                </div>
+
+            </div>
+            
+            <div class="thermometer_container">
+                <div class="thermometer_base">
+                    <div class="celsius_marks">
+                        <b>°C</b>
+                        <div class="big_mark"><p>50</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>40</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>30</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>20</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>10</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>0</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>-10</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>-20</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>-30</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>-40</p></div>
+                    </div>
+                    <div class="fahrenheit_marks_left">
+
+                        <b>°F</b>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>120</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>100</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>80</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>60</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>40</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>20</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>0</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>-20</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>-40</p></div>
+                    </div>
+                    <div class="thermometer_line_container">
+                        <div class="thermometer_line"></div> 
+                    </div>
+                    <div class="fahrenheit_marks">
+
+                        <b>°F</b>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>120</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>100</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>80</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>60</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>40</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>20</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>0</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>-20</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>-40</p></div>
+                    </div>
+                    <div class="kelvin_marks">
+                        <b>K</b>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>320</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>310</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>300</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>290</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>280</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>270</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>260</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>250</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="big_mark"><p>240</p></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="medium_mark"></div>
+                        <div class="little_mark"></div>
+                        <div class="little_mark"></div>
+                    </div>
+                </div>
+                <div class="thermometer_bottom"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
